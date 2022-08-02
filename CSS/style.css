@@ -4,7 +4,6 @@
 }
 
 body {
-    display: flex;
     min-height: 100vh;
 }
 
@@ -53,7 +52,8 @@ body {
 
 
 .titulo {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
     color: #b28b67;
     justify-content: center;
     text-align: center;
@@ -167,4 +167,9 @@ body {
 
 .poetas div:hover {
     background-color: #cc8f55;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }

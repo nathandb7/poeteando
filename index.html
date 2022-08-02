@@ -6,66 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/slider.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <script></script>
     <title>Poeteando</title>
 </head>
 
 <body>
+    <div>
+        <header class="main-header">
+            <a href="index.html"><img src="IMG/Logo-poemas-05.svg" alt="Logo"></a>
+            <nav class="menu">
+                <ul class="mainm">
+                    <li class="mainm"><a href="index.html">Inicio</a></li>
+                    <li class="mainm"><a href="Poetas.html">Poetas</a></li>
+                    <li class="mainm"><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <input type="search" name="buscador" class="buscador" id="buscador"><i class="fi fi-br-search buscador"></i>
+        </header>
+        <main>
 
-    <header class="main-header">
-        <a href="index.html"><img src="IMG/Logo-poemas-05.svg" alt="Logo"></a>
-        <nav class="menu">
-            <ul class="mainm">
-                <li class="mainm"><a href="index.html">Inicio</a></li>
-                <li class="mainm"><a href="Poetas.html">Poetas</a></li>
-                <li class="mainm"><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <input type="search" name="buscador" class="buscador" id="buscador"><i class="fi fi-br-search buscador"></i>
-    </header>
-
-    <main>
-        <div class="titulo">
-            <h1>Para amantes de la poesía</h1>
-        </div>
-
-
-        <div class="inicio">
-
-            <div>
-                    <img src="IMG/mujer-leyendo.jpg" alt="mujer-leyendo">
+            <div class="titulo">
+                <h1>Para amantes de la poesía</h1>
             </div>
 
-            <div>
+            <div class="contenedor-slider">
+                <div class="slider" id="slider">
+                    <div class="slider__section">
+                        <img src="IMG/mujer-leyendo.jpg" alt="mujer-leyendo" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="IMG/mujer-leyendo-2.jpg" alt="mujer-leyendo" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="IMG/mujer-leyendo-3.jpg" alt="mujer-leyendo" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="IMG/mujer-leyendo-4.jpg" alt="mujer-leyendo" class="slider__img">
+                    </div>
+                </div>
+                <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+                <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+            </div>
+            <br>
+            <div class="inicio">
+                <div>
+                    <article>
+                        <p>Somos un sitio web que comparte los mejores poemas de poetas latinoamericanos. <br> Hemos
+                            estado
+                            trabajando duro para asegurarnos de poder compartir los mejores poemas contigo.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="main-contenido">
                 <article>
-                    <p>Somos un sitio web que comparte los mejores poemas de poetas latinoamericanos. <br> Hemos
-                        estado
-                        trabajando duro para asegurarnos de poder compartir los mejores poemas contigo.</p>
+                    <h2>Una biblioteca de poemas</h2>
+                    <p>La poesía es una forma de literatura que utiliza el lenguaje para crear imágenes, expresar
+                        sentimientos y contar historias. Nos apasiona la poesía y queremos compartir contigo los mejores
+                        poemas.
+
+                        Creemos que la poesía es una gran manera de expresar tus emociones y pensamientos de una manera
+                        única. Te hace pensar diferente sobre las palabras que usas en la vida cotidiana y puede hacerte
+                        ver
+                        las cosas desde una perspectiva diferente.
+
+                        Nuestro sitio web tiene los mejores poemas de escritores latinoamericanos que hemos encontrado
+                        en la
+                        web para brindar una mirada profunda a esta cultura para nuestros lectores.</p>
                 </article>
             </div>
 
-        </div>
 
-        <div class="main-contenido">
-           <article>
-            <h2>Una biblioteca de poemas</h2>
-            <p>La poesía es una forma de literatura que utiliza el lenguaje para crear imágenes, expresar sentimientos y contar historias. Nos apasiona la poesía y queremos compartir contigo los mejores poemas.
-
-            Creemos que la poesía es una gran manera de expresar tus emociones y pensamientos de una manera única. Te hace pensar diferente sobre las palabras que usas en la vida cotidiana y puede hacerte ver las cosas desde una perspectiva diferente.
-            
-            Nuestro sitio web tiene los mejores poemas de escritores latinoamericanos que hemos encontrado en la web para brindar una mirada profunda a esta cultura para nuestros lectores.</p></article>
-        </div>
-
-    </main>
-
-    <footer class="main-f">
-        <div>
-            <p>Copyright © 2022 by <a href="https://www.linkedin.com/in/nadbb/">Nathan de Barros</a> All Rights
-                Reserved.</p>
-        </div>
-    </footer>
-
+        </main>
+        <footer class="main-f">
+            <div>
+                <p>Copyright © 2022 by <a href="https://www.linkedin.com/in/nadbb/">Nathan de Barros</a> All Rights
+                    Reserved.</p>
+            </div>
+        </footer>
+        <script src="JS/slider.js"></script>
+    </div>
 </body>
 
 </html>
