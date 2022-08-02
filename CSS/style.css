@@ -1,0 +1,157 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    background-color: #2d303f;
+    color: white;
+}
+
+
+.main-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-header a:hover {
+    color: #b28b67;
+}
+
+.main-header a:active {
+    color: #724922;
+}
+
+.mainm {
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.main-header img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.buscador {
+    display: flex;
+    height: 2em;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
+
+.titulo {
+    display: flex;
+    color: #b28b67;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.main-contenido {
+    display: flex;
+    justify-content: center;
+    background-color: #2d303f;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.main-contenido h2 {
+    margin-left: 20%;
+}
+
+.main-contenido p{
+ color:#cc8f55;
+ margin-left: 20%;
+}
+
+.bio p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-contenido2 {
+    background-color: white;
+}
+
+.main-f {
+    display: flex;
+    justify-content: center;
+    background-color: #2d303f;
+    color: white;
+    bottom: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.main-f a {
+    color: #cc8f55;;
+}
+
+.poema div {
+    background-color: #2d303f;
+    color: white;
+    padding: 10%;
+    margin: 3%;
+}
+.poema {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+
+.poema h2 {
+    color: #cc8f55;
+}
+
+.inicio p {
+ font-size: x-large;
+ text-align: center;
+ margin-bottom: 50px;
+ color: white;
+}
+
+.inicio {
+display: block;
+    background-color: #cc8f55;
+}
+
+.inicio img {
+    display:block;
+}
+
+.poetas {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.poetas div {
+    background-color: #2d303f;
+    padding: 20px;
+    margin: 3px;
+}
+
+.poetas a {
+ color: white;
+ text-decoration: none;
+}
+
+.poetas a:hover {
+    color: #2d303f ;
+   }
+   
+
+.poetas div:hover {
+    background-color: #cc8f55;
+}
